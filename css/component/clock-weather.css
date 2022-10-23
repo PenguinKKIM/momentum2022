@@ -1,0 +1,48 @@
+.under-component{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+
+    position: fixed;
+    bottom: 0;
+}
+
+.clock-weather{
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 1%;
+}
+
+
+#clock{
+    margin: 0 2rem;
+    
+    color: var(--deepSea);
+    font-size: 3rem;
+    font-weight: 800;
+    text-shadow: var(--text-shadow);
+}
+
+#weather{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;   
+}
+
+.weather-now{
+    color: var(--deepSea);
+    text-shadow: var(--text-shadow-sm);
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+
+.weather-city{
+    margin-top: .5rem;
+
+    color: var(----midSea);
+    text-shadow: var(--text-shadow-sm);
+    font-size: 1rem;
+}

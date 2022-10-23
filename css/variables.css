@@ -1,0 +1,20 @@
+:root{
+    --mainGrdientR: linear-gradient(to right , #fbffce, #ffe0aa, #ffbd9d, #ff9aad, #f584cf, #e280df, #c680f0, #9f82ff, #b67fff, #cd7bff, #e477fd, #f971f9);
+    --mainGrdientL: linear-gradient(to left , #fbffce, #ffe0aa, #ffbd9d, #ff9aad, #f584cf, #e280df, #c680f0, #9f82ff, #b67fff, #cd7bff, #e477fd, #f971f9);
+    --deepSea: rgb(6,66,115);
+    --midSea: rgb(118,182,196);
+    --lightSea: rgb(127,205,255);
+    --bgColor: rgb(222,243,246);
+    --sendColor: rgb(255,236,184);
+    --text-shadow: .1rem 0 var(--bgColor), .2rem 0 var(--bgColor),
+    -.1rem 0 var(--bgColor), -.2rem 0 var(--bgColor),
+    0 .1rem var(--bgColor), 0 .2rem var(--bgColor),
+    0 -.2rem var(--bgColor), 0 -.3rem var(--bgColor);
+    --text-shadow-sm:.01rem 0 var(--bgColor), .02rem 0 var(--bgColor),
+    -.01rem 0 var(--bgColor), -.02rem 0 var(--bgColor),
+    0 .01rem var(--bgColor), 0 .02rem var(--bgColor),
+    0 -.02rem var(--bgColor), 0 -.03rem var(--bgColor);
+    --box-shadow : .1rem .1rem var(--sendColor), -.1rem -.1rem var(--midSea);
+}
+
+

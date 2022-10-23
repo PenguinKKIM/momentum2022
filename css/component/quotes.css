@@ -1,0 +1,36 @@
+#quote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 1rem;
+    margin-top: 1%;
+    border-radius: 2rem;
+
+    background-color: rgba(0, 129, 241, .1);   
+}
+
+#quote:hover{
+    transition: background-color 2s ease-in-out;
+    background-color: rgba(0, 129, 241, .6);
+}
+
+
+.quote-quote{
+    background-image: var(--mainGrdientL);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.quote-author{
+    margin-top: 1rem;
+    
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--deepSea);
+    text-shadow: var(--text-shadow-sm);
+}

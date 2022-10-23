@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>MOMENTUM</title>
+</head>
+
+<body>
+
+    
+
+    <!--to-do-List-->
+    <header class="todo-component">
+        
+        <button class='see-todo__btn'>See ToDo List!</button>
+
+        <div id="todo-form__hidden" class="hidden">
+        <form id="todo-form">
+            <input type="text" placeholder="Write a To Do " required>
+        </form>
+
+        <ul id="todo-list"> 
+            <!--JS에서 li가 들어오는자리-->
+        </ul>
+        </div>
+    
+    </header>
+
+    
+
+    <main id="momentun-app">
+        
+        <!--가운데 오는 요소들-->
+        <section class="center-component">
+        
+        <!-- 로그인 폼 -->
+        <form id='loginForm' class="hidden">
+        
+            <input type="text" 
+            placeholder="What is your name?"
+            maxlength="15"
+            minlength="1"
+            required>
+        
+            <button class="form-login__btn">Log In</button>
+        
+        </form>
+        
+        
+        <!--hellow + 유저이름-->
+        <h1 id="greeting" class="hidden"></h1>
+
+        
+            
+        <!--검색창-->
+        <div class="search-component">
+        <form action="https://www.google.com/search" method="get">
+                
+            <input name="q" type="text" placeholder="Search at Google" class="search-input" >
+               
+        </form>
+        </div>
+
+        <div id="quote">
+            <span class="quote-quote"></span>
+            <span class="quote-author"></span>
+        </div>
+
+        </section>
+
+        
+        
+        
+    </main>
+        
+    <!--밑에 오는 요소들-->
+    <section class="under-component">
+
+        <!--빈 div(칸 벌리기 꼼수ㅎ;)-->   
+        <div></div>
+
+        
+       
+        <div class="clock-weather">
+                                
+            <!--시계-->
+            <h2 id="clock"></h2> 
+                            
+            <!--날씨-->
+            <div id="weather">
+                
+            <span class="weather-now"></span>
+            <span class="weather-city"></span>
+                
+            </div>
+                        
+        </div>
+           
+
+        <!--빈 div(칸 벌리기 꼼수ㅎ;)-->        
+        <div></div>        
+            
+    </section>
+        
+   
+    <!--스크립트 링크-->
+    <script src="js/greeting.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+    <!--폰트 어썸-->
+    <script src="https://kit.fontawesome.com/ad2be14d60.js" crossorigin="anonymous"></script>
+    
+</body>
+</html>

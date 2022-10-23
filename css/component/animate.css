@@ -1,0 +1,27 @@
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes bg-fadein {
+    from {
+        opacity: .7;
+    }    
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+#quote{
+    animation: fadein .5s ease-in-out;
+}
+
+.background-img{
+    animation: bg-fadein 1s ease-in-out;
+}

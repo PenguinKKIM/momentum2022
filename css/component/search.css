@@ -1,0 +1,26 @@
+.search-component{
+    margin-top: 3%;
+}
+
+.search-input{
+    width: 35vw;
+    height: 5vh;
+
+    border-radius: .5rem;
+    border: none;
+    box-shadow: var(--box-shadow);
+    background-image: var(--mainGrdientR);
+
+    font-family: 'HBIOS-SYS';
+    text-align: center;
+    font-style: italic;    
+    color: var(--bgColor);
+    font-size:1.5rem;
+  
+    opacity: .7;   
+}
+
+.search-input::placeholder{
+    color: aliceblue;
+    font-size: 1rem;
+}

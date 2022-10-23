@@ -1,0 +1,53 @@
+#momentun-app,.center-component{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.center-component{
+    width: 100vw;
+    height: 50vh;
+    margin-top: 10%;
+
+    background-color: rgba(0, 129, 241, .1);
+}
+
+#greeting{
+    background-image: var(--mainGrdientR);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+#greeting:hover{
+    color: var(--deepSea);
+    transition: color 2s ease-in-out;
+}
+
+
+
+#loginForm input{
+    width: auto;
+   
+    border: none;
+    border-radius: 2rem;
+    border-bottom: 5px solid var(--jordy-pink);
+   
+    background-color: rgba(28, 37, 53, 0.5);
+   
+    font-family: 'HBIOS-SYS';
+    color: var(--deepSea);
+    font-size: 3rem;
+    text-align: center;
+}
+
+#loginForm input::placeholder{
+    color: var(--deepSea);
+    text-shadow: var(--text-shadow);
+    text-align: center;
+}
+
